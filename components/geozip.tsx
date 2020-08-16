@@ -9,6 +9,7 @@ const Zip = () =>{
 
   const closestZip =  geo2zip(location);
   console.log(closestZip);
+  
   return(
     <div>
       <h1>Casa</h1>
