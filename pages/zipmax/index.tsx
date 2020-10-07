@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Map from '@components/mapboxo'
+import Zip from '@components/zipmax'
 
   
 
@@ -8,7 +8,7 @@ const HomePage = () => {
 
                 return (             
 
-                        <Map />
+                        <Zip />
 
                 );
 

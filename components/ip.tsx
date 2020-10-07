@@ -3,15 +3,22 @@ import { useIpCoords } from 'use-ipcoords'
  
  
  export const Ip = () => {
+    console.log("funciona")
     const {
         latitudeIp,
-        longitudeIp 
+        longitudeIp,
+        countryCode 
     } = useIpCoords();
+
+    
+        
+    
  
     return (
         <div>
             latitudeIp : {latitudeIp}<br />
             longitudeIp : {longitudeIp}<br />
+            countryCode : {countryCode}<br />
         </div>
     );
  
