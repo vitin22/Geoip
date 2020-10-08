@@ -1,5 +1,5 @@
 import React from 'react';
-import { useIpCoords } from 'use-ipcoords'
+import { IpCoords } from './IpCoords'
  
  
  export const Ip = () => {
@@ -8,7 +8,7 @@ import { useIpCoords } from 'use-ipcoords'
         latitudeIp,
         longitudeIp,
         countryCode 
-    } = useIpCoords();
+    } = IpCoords();
 
     
         
